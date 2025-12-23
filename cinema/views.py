@@ -1,7 +1,4 @@
-from rest_framework.generics import (
-    ListCreateAPIView,
-    RetrieveUpdateDestroyAPIView
-)
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from .models import Movie
 
 from .serializers import MovieSerializer
